@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="musicplayer.css">
+    <title>Audia</title>
+</head>
+<body>
+    <div class="player">
+        <div class="now-playing">
+            <div class="song-cover">
+                <img src="./Imgs/Track1.jpg" alt="cover">
+            </div>
+            <div class="trackinfo">
+                <h1>Song 1</h1>
+                <h3>Artist 1</h3>
+            </div>
+            <div class="controls">
+                <div>
+                    <audio class="audio" src="./Music/audio1.mp3"></audio>
+                    <input type="range" class="musicbar" value="0" max="100">
+                    <div class="timestamp">
+                        <span class="curr">0:00</span>
+                        <span class="duration">1:12</span>
+                    </div>
+                </div>
+                <div class="controlbtns">
+                    <i class="fa-solid fa-backward-step prev"></i>
+                    <i class="fa-solid fa-circle-play play"></i>
+                    <i class="fa-solid fa-circle-pause pause"></i>
+                    <i class="fa-solid fa-forward-step next"></i>
+                </div>
+            </div>
+        </div>
+        <div class="playlist">
+            <h1>PlayList</h1>
+            <ol class="songlist">
+                <li class="songitem selected">
+                    <div class="info">
+                        <span class="songname">Song 1-</span>
+                        <span class="songartist">Artist 1</span>
+                    </div>
+                    <span class="songduration">1:12</span>
+                </li>
+                <li class="songitem">
+                    <div class="info">
+                        <span class="songname">Song 2-</span>
+                        <span class="songartist">Artist 2</span>                      
+                    </div>
+                    <span class="songduration">0:49</span>
+                </li>
+                <li class="songitem">
+                    <div class="info">
+                        <span class="songname">Song 3-</span>
+                        <span class="songartist">Artist 3</span>
+                    </div>
+                    <span class="songduration">2:31</span>
+                </li>
+                <li class="songitem">
+                    <div class="info">
+                        <span class="songname">Song 4-</span>
+                        <span class="songartist">Artist 4</span>
+                    </div>
+                    <span class="songduration">2:15</span>
+                </li>
+                <li class="songitem">
+                    <div class="info">
+                        <span class="songname">Song 5-</span>
+                        <span class="songartist">Artist 5</span>
+                    </div>
+                    <span class="songduration">0:47</span>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="musicplayer.js"></script>
+</body>
+</html>
