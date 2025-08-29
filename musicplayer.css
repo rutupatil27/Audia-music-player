@@ -155,3 +155,27 @@ input[type="range"]:hover::-webkit-slider-thumb{
     display: block;
 }
 
+@media (max-width: 426px){
+    .player{
+        flex-direction: column;
+        height: auto;
+        width: 90vw;
+    }
+    .now-playing, .playlist{
+        width: 100%;
+        height: auto;
+    }
+    .song-cover{
+        width: 200px;
+        height: 200px;
+    }
+    .trackinfo, .controls{
+        width: 200px;
+    }
+    ol{
+        width: 90%;
+    }
+    .controlbtns{
+        margin-bottom: 1rem;
+    }
+}
