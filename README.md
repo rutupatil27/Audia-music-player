@@ -28,6 +28,7 @@ Developed as **Task 3** of my CodeAlpha Internship.
 ---
 
 ## 📸 Screenshots
-*(Add desktop and mobile screenshots here once hosted)*  
 
----
+| 🖥️ Desktop View | 📱 Mobile View |
+|-----------------|----------------|
+| ![Desktop Screenshot](Desktop_ss.png) | ![Mobile Screenshot](mobile_ss.jpg) |
