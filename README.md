@@ -31,4 +31,4 @@ Developed as **Task 3** of my CodeAlpha Internship.
 
 | 🖥️ Desktop View | 📱 Mobile View |
 |-----------------|----------------|
-| ![Desktop Screenshot](Imgs/Desktop_ss.png) | ![Mobile Screenshot](Imgs/mobile_ss.jpg) |
+| ![Desktop Screenshot](Imgs/Desktop_ss.png) | ![Mobile Screenshot](Imgs/Mobile_ss.jpg) |
