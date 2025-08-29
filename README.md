@@ -5,6 +5,7 @@
 **Audia** is a sleek and responsive **web-based music player** built using **HTML, CSS, and JavaScript**.  
 Developed as **Task 3** of my CodeAlpha Internship.  
 
+**Live Demo:** [Try it here]( https://rutupatil27.github.io/Audia-music-player/)  
 ---
 
 ## 🚀 Features  
